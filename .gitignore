@@ -1,0 +1,7 @@
+node_modules/
+.docz/
+public/
+[Bb]uild/
+**/*[Bb]uild/
+.DS_Store
+.idea
