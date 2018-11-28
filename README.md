@@ -1,5 +1,5 @@
 
-# Vida-UI Design System
+# Vida UI Design System
 
 [![Build Status][travis-badge]][travis]
 [![Coverage][coverage-badge]][coverage]
