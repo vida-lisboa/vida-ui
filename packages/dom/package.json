@@ -1,0 +1,25 @@
+{
+  "name": "@vida-ui/dom",
+  "version": "0.0.0",
+  "description": "Vida-UI DOM Library",
+  "license": "MIT",
+  "main": "src/index.js",
+  "author": "Klayton Faria <klayton.souza@gmail.com>",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "styled-components": "^4.1.1",
+    "styled-icons": "^3.0.0",
+    "styled-system": "^3.1.11"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "jest": "23.6.0"
+  },
+  "peerDependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  }
+}
