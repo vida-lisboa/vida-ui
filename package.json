@@ -8,7 +8,9 @@
     "node": ">=8.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "docz:dev": "docz dev",
+    "docz:build": "docz build"
   },
   "repository": {
     "type": "git",
@@ -26,6 +28,10 @@
     "url": "https://github.com/vida-lisboa/vida-ui/issues"
   },
   "homepage": "https://github.com/vida-lisboa/vida-ui#readme",
+  "dependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  },
   "devDependencies": {
     "@babel/cli": "^7.1.2",
     "@babel/core": "^7.1.2",
@@ -35,13 +41,9 @@
     "@babel/preset-react": "^7.0.0",
     "babel-core": "7.0.0-bridge.0",
     "concurrently": "^4.0.1",
-    "docz": "0.11.2",
+    "docz": "^0.12.13",
     "docz-plugin-css": "0.11.0",
     "jest": "23.6.0",
-    "lerna": "^3.4.3",
-    "lodash.throttle": "^4.1.1",
-    "metro-react-native-babel-preset": "^0.48.1",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3"
+    "lerna": "^3.4.3"
   }
 }
