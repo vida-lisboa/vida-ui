@@ -1,8 +1,7 @@
 export default {
-  dest: './public',
+  dest: './build',
   base: '/',
   hashRouter: true,
-  wrapper: 'wrapper.js',
   codeSandbox: false,
   files: './docs/**/*.mdx',
   themeConfig: {
