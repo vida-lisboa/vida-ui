@@ -18,10 +18,6 @@ install:
 
 script:
   - yarn build
-  - yarn docz
-
-before_deploy:
-  - echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc
 
 deploy:
   - provider: pages
