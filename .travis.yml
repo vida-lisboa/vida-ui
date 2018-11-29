@@ -3,6 +3,10 @@ sudo: required
 node_js:
   - "node"
 
+cache:
+  directories:
+    - node_modules
+
 before_install:
   - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.12.0
   - export PATH="$HOME/.yarn/bin:$PATH"
@@ -20,12 +24,6 @@ before_deploy:
   - echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc
 
 deploy:
-  - provider: script
-    skip_cleanup: true
-    script: lerna exec --no-private --bail=false -- "npm publish"
-    on:
-      tags: true
-      repo: vida-lisboa/ui
   - provider: pages
     local-dir: public
     skip-cleanup: true
