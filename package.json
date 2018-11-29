@@ -10,7 +10,7 @@
   "scripts": {
     "test": "jest",
     "docz:dev": "docz dev",
-    "docz:build": "docz build"
+    "build": "docz build"
   },
   "repository": {
     "type": "git",
