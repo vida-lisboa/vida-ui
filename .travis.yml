@@ -29,3 +29,6 @@ deploy:
     fqdn: ui.vida-lisboa.pt
     on:
       branch: master
+
+notifications:
+    slack: vida-lisboa:$SLACK_TOKEN
