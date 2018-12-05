@@ -7,7 +7,7 @@
 [![npm version][npm version]][npm version]
 
 [travis-badge]: https://travis-ci.com/vida-lisboa/vida-ui.svg?branch=master
-[travis]: https://travis-ci.org/vida-lisboa/vida-ui
+[travis]: https://travis-ci.com/vida-lisboa/vida-ui
 [coverage-badge]: https://img.shields.io/codecov/c/github/vida-lisboa/vida-ui.svg?style=flat-square
 [coverage]: https://codecov.io/github/vida-lisboa/vida-ui
 [codacy-badge]: https://api.codacy.com/project/badge/Grade/791c2b8490804b3ba1c58db0ea845425
