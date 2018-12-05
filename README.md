@@ -1,6 +1,8 @@
 
 # Vida UI Design System
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/791c2b8490804b3ba1c58db0ea845425)](https://app.codacy.com/app/vida-lisboa/vida-ui?utm_source=github.com&utm_medium=referral&utm_content=vida-lisboa/vida-ui&utm_campaign=Badge_Grade_Settings)
+
 [![Build Status][travis-badge]][travis]
 [![Coverage][coverage-badge]][coverage]
 [![npm version][npm version]][npm version]
