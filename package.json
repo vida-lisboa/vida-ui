@@ -7,10 +7,17 @@
     "yarn": ">=1.5.1",
     "node": ">=8.0.0"
   },
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
   "scripts": {
     "test": "jest",
     "docz:dev": "docz dev",
-    "build": "docz build"
+    "build": "lerna run build && docz build",
+    "clean": "lerna run clean && rm -rf .docz"
   },
   "repository": {
     "type": "git",
