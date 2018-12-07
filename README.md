@@ -33,21 +33,21 @@ http://ui.vidalisboa.pt
 
 `WIP`
 ### Get start!
-#### Install
+#### Install as dependency
 ```sh
-npm install vida-ui
+yarn add vida-ui
 ```
 #### Running on `dev` mode
 ```sh
-npm start
+yarn start
 ```
 #### Build
 ```sh
-npm run build
+yarn build
 ```
 #### Running `tests`
 ```sh
-npm t
+yarn test
 ```
 
 
