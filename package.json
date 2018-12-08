@@ -15,7 +15,8 @@
   },
   "scripts": {
     "test": "jest",
-    "docz:dev": "docz dev",
+    "fix-code": "prettier-eslint --write 'packages/**/*.{js,jsx}' ",
+    "dev": "docz dev",
     "build": "lerna run build && docz build",
     "clean": "lerna run clean && rm -rf .docz"
   },
@@ -50,7 +51,12 @@
     "concurrently": "^4.0.1",
     "docz": "^0.12.13",
     "docz-plugin-css": "0.11.0",
+    "eslint": "^5.9.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-react": "^7.11.1",
     "jest": "23.6.0",
-    "lerna": "^3.4.3"
+    "lerna": "^3.4.3",
+    "prettier-eslint": "^8.8.2",
+    "prettier-eslint-cli": "^4.7.1"
   }
 }
