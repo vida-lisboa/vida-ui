@@ -1,16 +1,16 @@
 # Vida UI Design System
 
 [![Build Status][travis-badge]][travis]
-[![Codacy][codacy-badge]][codacy]
-[![Coverage][coverage-badge]][coverage]
-[![npm version][npm version]][npm version]
+[![Maintainability Status][maintainability-badge]][maintainability]
+<!-- [![Coverage][coverage-badge]][coverage] -->
+<!-- [![npm version][npm version]][npm version] -->
 
 [travis-badge]: https://travis-ci.com/vida-lisboa/vida-ui.svg?branch=master
 [travis]: https://travis-ci.com/vida-lisboa/vida-ui
 [coverage-badge]: https://img.shields.io/codecov/c/github/vida-lisboa/vida-ui.svg?style=flat-square
 [coverage]: https://codecov.io/github/vida-lisboa/vida-ui
-[codacy-badge]: https://api.codacy.com/project/badge/Grade/791c2b8490804b3ba1c58db0ea845425
-[codacy]: https://app.codacy.com/app/vida-lisboa/vida-ui?utm_source=github.com&utm_medium=referral&utm_content=vida-lisboa/vida-ui&utm_campaign=Badge_Grade_Settings
+[maintainability-badge]: https://api.codeclimate.com/v1/badges/8460f4cf81b0d81899af/maintainability
+[maintainability]: https://codeclimate.com/github/vida-lisboa/vida-ui/maintainability
 [npm version]: https://img.shields.io/npm/v/vida-ui.svg?style=flat-square
 
 ## Motivation
