@@ -1,4 +1,3 @@
-
 # Vida UI Design System
 
 [![Build Status][travis-badge]][travis]
@@ -14,11 +13,9 @@
 [codacy]: https://app.codacy.com/app/vida-lisboa/vida-ui?utm_source=github.com&utm_medium=referral&utm_content=vida-lisboa/vida-ui&utm_campaign=Badge_Grade_Settings
 [npm version]: https://img.shields.io/npm/v/vida-ui.svg?style=flat-square
 
-
 ## Motivation
 
 The Vida-UI is a living, well-documented, and growing design system and the purpose meant to be the single source of truth for user interface standards for both designers and developers.
-
 
 ## Goals
 
@@ -29,27 +26,36 @@ The core goals of this design-system are to:
 - Promote accessibility, internationalization and responsive web design
 
 ## Documentation
+
 http://ui.vidalisboa.pt
 
 `WIP`
+
 ### Get start!
+
 #### Install as dependency
+
 ```sh
 yarn add vida-ui
 ```
+
 #### Running on `dev` mode
+
 ```sh
 yarn start
 ```
+
 #### Build
+
 ```sh
 yarn build
 ```
+
 #### Running `tests`
+
 ```sh
 yarn test
 ```
-
 
 ## Contributing
 
