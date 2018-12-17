@@ -19,7 +19,9 @@
     "burn": "rm -rf node_modules && lerna exec -- rm -rf node_modules",
     "dev": "docz dev",
     "build": "lerna run build && docz build",
-    "clean": "lerna run clean && rm -rf .docz"
+    "clean": "lerna run clean && rm -rf .docz",
+    "catalog-start": "catalog start",
+    "catalog-build": "catalog build"
   },
   "repository": {
     "type": "git",
@@ -39,6 +41,7 @@
   "homepage": "https://github.com/vida-lisboa/vida-ui#readme",
   "dependencies": {
     "babel-eslint": "^10.0.1",
+    "catalog": "^3.6.0",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3"
