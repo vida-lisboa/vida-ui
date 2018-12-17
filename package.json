@@ -18,10 +18,9 @@
     "lint": "eslint 'packages/**/*.{js,jsx}'",
     "burn": "rm -rf node_modules && lerna exec -- rm -rf node_modules",
     "dev": "docz dev",
-    "build": "lerna run build && docz build",
+    "build": "lerna run build && catalog build",
     "clean": "lerna run clean && rm -rf .docz",
-    "catalog-start": "catalog start",
-    "catalog-build": "catalog build"
+    "catalog-start": "catalog start"
   },
   "repository": {
     "type": "git",
