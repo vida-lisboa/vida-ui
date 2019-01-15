@@ -1,2 +1,0 @@
-webpackJsonp([1],{776:function(n,e,t){var o=t(15),r=t(45),a=t(288).PageRenderer;a.__esModule&&(a=a.default);var s=r({displayName:"WrappedPageRenderer",getInitialState:function(){return{content:t(779)}},componentWillMount:function(){},render:function(){return o.createElement(a,Object.assign({},this.props,{content:this.state.content}))}});s.__catalog_loader__=!0,n.exports=s},779:function(n,e){n.exports='\n```type\n{\n  "headings": [48,28,21,16,14,12],\n  "font": "sans-serif",\n  "color": "#333"\n}\n```'}});
-//# sourceMappingURL=1.20107e5c.chunk.js.map
