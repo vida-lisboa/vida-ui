@@ -41,7 +41,7 @@ const props = {
         {
           path: "/components/button",
           title: "Button",
-          content: pageLoader(() => import("./WELCOME.md"))
+          content: pageLoader(() => import('./components/button'))
         },
       ]
     }
