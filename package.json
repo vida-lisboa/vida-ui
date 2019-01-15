@@ -17,10 +17,8 @@
     "test": "jest",
     "lint": "eslint 'packages/**/*.{js,jsx}'",
     "burn": "rm -rf node_modules && lerna exec -- rm -rf node_modules",
-    "dev": "docz dev",
-    "build": "lerna run build && catalog build",
-    "clean": "lerna run clean && rm -rf .docz",
-    "catalog-start": "catalog start"
+    "dev": "catalog start",
+    "build": "catalog build"
   },
   "repository": {
     "type": "git",
@@ -39,32 +37,12 @@
   },
   "homepage": "https://github.com/vida-lisboa/vida-ui#readme",
   "dependencies": {
-    "babel-eslint": "^10.0.1",
-    "catalog": "^3.6.0",
     "prop-types": "^15.6.2",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3"
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.1.2",
-    "@babel/core": "^7.1.2",
-    "@babel/plugin-proposal-class-properties": "^7.1.0",
-    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
-    "@babel/preset-env": "^7.1.0",
-    "@babel/preset-react": "^7.0.0",
-    "babel-core": "7.0.0-bridge.0",
-    "concurrently": "^4.0.1",
-    "docz": "^0.12.13",
-    "docz-plugin-css": "0.11.0",
-    "eslint": "^5.10.0",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-prettier": "^3.3.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.2",
-    "eslint-plugin-prettier": "^3.0.0",
-    "eslint-plugin-react": "^7.11.1",
-    "jest": "23.6.0",
-    "lerna": "^3.4.3",
-    "prettier": "^1.15.3"
+    "catalog": "^3.6.0",
+    "lerna": "^3.10.5"
   }
 }
