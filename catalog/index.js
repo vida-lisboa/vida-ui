@@ -43,6 +43,11 @@ const props = {
           title: "Button",
           content: pageLoader(() => import('./components/button'))
         },
+        {
+          path: "/components/input",
+          title: "Input",
+          content: pageLoader(() => import('./components/input'))
+        },
       ]
     }
   ]
