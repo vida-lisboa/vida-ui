@@ -33,3 +33,7 @@ notifications:
       - secure: "WdhZwjtUfQ6LFhcl1ZbqX9vmF772iqpZWVMc9/20BrDKJKqz1Vbo7fMHOlP50PRRGgwUjOXPIs90zeACHp1Hu6Rs8KVCkIs5DwMeElmJiRBOdVLdA0o+fSYn6cPhSGoDRP4rxd/Pw3VGRod7qM0TCkalM3wxCcelsIARGdGte2wRj0ka3ap1sXwkV2JP2N/mqip/5460P0R3Ti63b2i4pRTnUynRuFFAlAtM70GZPDSS0Ulw5YXomCSN7bYgAOkUffj8L3c//3yaKle0+ViTzDFsy4xKN9sZs9ou5420EKCBOOAQ66zzitYhJAbjjFhO9PTzVeJXperCZ48zYpPhxRj46cU+2JRshNlexYMec0/LrHK56q20kiuKXh/KMBKNFE9Bxqby8d/uQmX6lIXeprDP8PNGDAG5GdQNnWhO9jjpjkodl3khyYVCRFVPV4sOtKN37+cm/yfKQk81zEyD6xyBXVkC3Kd5wgfIuDSskYBlEqHZAvyArbABk9Iv/mALGYEfAZJfi8CdRjS3mNfQmGbCyo1agRTNkXsdE/VplZGZzJODPgWVNXRb1S/0t28Ik82cdjEryIHcgk2ELzumSYGtC9hqkKnEwIrFTAq9dufGuVmYqnug38r9jwKJLqYRbDoDgFL7kW/SSlutrbCBFYUUli4m1sM7q/PXJLydF4U="
     on_success: always
     on_failure: always
+  webhooks:
+    urls:
+      - https://fathomless-fjord-24024.herokuapp.com/notify
+    on_start: always
